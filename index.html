@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Ecommerce Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
 <body>
@@ -31,6 +33,9 @@
                             <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#t-shart">T-Shart</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
                         </li>
                     </ul>
@@ -44,7 +49,7 @@
                         <div class="col-md-7">
                             <h1>Samsung Smart LED Sports TV 2020</h1>
                             <p>Samsung Tv one of the best tv in the world. over the last five years we sell 238293 products</p>
-                            <h1>2100$</h1>
+                            <h1 class="price">2100$</h1>
                             <button class="btn btn-primary panda-button">Buy Now >></button>
                         </div>
                         <div class="col-md-5">
@@ -57,7 +62,7 @@
                         <div class="col-md-7">
                             <h1>Cool Dude Headphone Jhankar</h1>
                             <p>Samsung Tv one of the best tv in the world. over the last five years we sell 238293 products</p>
-                            <h1>1100$</h1>
+                            <h1 class="price">1100$</h1>
                             <button class="btn btn-primary panda-button">Buy Now >></button>
                         </div>
                         <div class="col-md-5">
@@ -70,7 +75,7 @@
                         <div class="col-md-7">
                             <h1>X-box For Your Liveing Room</h1>
                             <p>Samsung Tv one of the best tv in the world. over the last five years we sell 238293 products</p>
-                            <h1>300$</h1>
+                            <h1 class="price">300$</h1>
                             <button class="btn btn-primary panda-button">Buy Now >></button>
                         </div>
                         <div class="col-md-5">
@@ -100,13 +105,13 @@
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex p-3 rounded bg-primary justify-content-around align-items-center">
-                        <h1 class="text-white">Watch</h1>
+                        <h1 class="text-white">Bag</h1>
                         <img src="images/categories/bag.png" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex p-3 rounded bg-success justify-content-around align-items-center">
-                        <h1 class="text-white">Watch</h1>
+                        <h1 class="text-white">Shoes</h1>
                         <img src="images/categories/shoes.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -115,11 +120,12 @@
         <section id="shoes" class="mt-5 mb-5">
             <h3 class="mb-3">Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <div class="card panda-card h-100 shadow">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 240</h5>
+                            <h5 class="price">340$</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer panda-card-footer">
@@ -127,11 +133,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <div class="card panda-card h -100 shadow">
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike 360</h5>
+                            <h5 class="price">540$</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer panda-card-footer">
@@ -139,11 +146,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <div class="card panda-card h -100 shadow">
                         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Airmax</h5>
+                            <h5 class="price">600$</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer panda-card-footer">
@@ -151,7 +159,45 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="col-md-4 col-sm-12">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/shoes/shoes-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mamba Snakers</h5>
+                            <h5 class="price">440$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/shoes/shoes-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Puma Maxtro23</h5>
+                            <h5 class="price">780$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/shoes/shoes-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas YEEZA20</h5>
+                            <h5 class="price">940$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="backpack" class="mt-5 mb-5">
@@ -162,7 +208,7 @@
                         <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Pollo Bag</h5>
-                            <h5>120$</h5>
+                            <h5 class="price">120$</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer panda-card-footer">
@@ -175,7 +221,7 @@
                         <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike Blue Blag</h5>
-                            <h5>180$</h5>
+                            <h5 class="price">180$</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer panda-card-footer">
@@ -188,7 +234,7 @@
                         <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Black Brand Bag</h5>
-                            <h5>310$</h5>
+                            <h5 class="price">310$</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer panda-card-footer">
@@ -198,12 +244,97 @@
                 </div>
             </div>
         </section>
+        <section id="t-shart" class="mt-5 mb-5">
+            <h3 class="mb-3">T-Shart</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/t-shart/t-shart-1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Pollo Bag</h5>
+                            <h5 class="price">120$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/t-shart/t-shart-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Pollo Bag</h5>
+                            <h5 class="price">120$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/t-shart/t-shart-3.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Pollo Bag</h5>
+                            <h5 class="price">120$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/t-shart/t-shart-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Pollo Bag</h5>
+                            <h5 class="price">120$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/t-shart/t-shart-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Pollo Bag</h5>
+                            <h5 class="price">120$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card panda-card h -100 shadow">
+                        <img src="images/t-shart/t-shart-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Pollo Bag</h5>
+                            <h5 class="price">120$</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary panda-button">Buy Now>></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <section id="subscribe" class="d-flex justify-content-center align-items-center mb-5 mt-5  rounded panda-mail" style="height: 300px;">
-            <div>
+            <div class="text-center">
                 <h2>LET'S STAY CONNECT WITH US</h2>
-                <h5>Subscrib Mail Get Update Sale, Special And More</h5>
-                <input type="email" class="" name="" id="" placeholder="Write Your Email">
-                <button type="submit" class="btn panda-button btn-primary">Submit</button>
+                <h6>Subscrib Mail Get Update Sale, Special And More</h6>
+                <input type="email" class="" name="" id="" placeholder="Write Your Email"><br>
+                <button type="submit" class="btn panda-button btn-primary mt-2">Submit</button>
             </div>
         </section>
     </main>

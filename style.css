@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .panda-slide .carousel-item {
     background-color: #FCEAE8;
     border-radius: 1rem;
@@ -33,4 +37,9 @@ button.panda-button {
 .card-footer.panda-card-footer {
     background: white;
     border: none;
+}
+
+.price {
+    color: #ff2d7f;
+    font-weight: 700;
 }
